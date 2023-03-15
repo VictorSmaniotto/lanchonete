@@ -1,0 +1,10 @@
+<svg id="lupa" xmlns="http://www.w3.org/2000/svg" width="16.516" height="16.527" viewBox="0 0 16.516 16.527">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(33,37,41,0.6);
+      }
+    </style>
+  </defs>
+  <path id="Caminho_6" data-name="Caminho 6" class="cls-1" d="M14.759,8.377a6.38,6.38,0,1,0-2.472,5.032l5.1,5.1,1.124-1.124-5.1-5.1A6.38,6.38,0,0,0,14.759,8.377Zm-6.38,4.785a4.785,4.785,0,1,1,4.785-4.785A4.785,4.785,0,0,1,8.379,13.161Z" transform="translate(-2 -1.985)"/>
+</svg>

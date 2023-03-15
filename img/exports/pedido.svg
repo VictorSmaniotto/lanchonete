@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.707" height="26.446" viewBox="0 0 26.707 26.446">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+    </style>
+  </defs>
+  <g id="pedido" transform="translate(0 -0.293)">
+    <path id="Caminho_22" data-name="Caminho 22" class="cls-1" d="M26.707,2.073a1.782,1.782,0,0,0-1.78-1.78H1.78a1.777,1.777,0,0,0-.445,3.5V25.4l1.335-1.335,2.671,2.671,2.671-2.671,2.671,2.671,2.671-2.671,2.671,2.671,2.671-2.671,2.671,2.671,2.671-2.671L25.371,25.4V3.791A1.779,1.779,0,0,0,26.707,2.073ZM24.481,23.255l-.445-.445L21.365,25.48l-2.671-2.671L16.024,25.48l-2.671-2.671L10.683,25.48,8.012,22.809,5.341,25.48,2.671,22.809l-.445.445V2.519H24.481V23.255Zm.89-20.411V1.628H1.335V2.844A.89.89,0,0,1,1.78,1.183H24.926a.89.89,0,0,1,.445,1.661Z"/>
+    <path id="Caminho_23" data-name="Caminho 23" class="cls-1" d="M35.122,40.293H28.445a.445.445,0,1,0,0,.89h6.677a.445.445,0,0,0,0-.89Z" transform="translate(-15.537 -22.195)"/>
+    <path id="Caminho_24" data-name="Caminho 24" class="cls-1" d="M48.129,40.429a.458.458,0,0,0-.129.316.445.445,0,1,0,.89,0,.458.458,0,0,0-.129-.316A.466.466,0,0,0,48.129,40.429Z" transform="translate(-26.635 -22.202)"/>
+    <path id="Caminho_25" data-name="Caminho 25" class="cls-1" d="M40.122,26.293H33.445a.445.445,0,1,0,0,.89h6.677a.445.445,0,0,0,0-.89Z" transform="translate(-18.311 -14.427)"/>
+    <path id="Caminho_26" data-name="Caminho 26" class="cls-1" d="M42.9,33.293H38.445a.445.445,0,1,0,0,.89H42.9a.445.445,0,1,0,0-.89Z" transform="translate(-21.086 -18.311)"/>
+    <path id="Caminho_27" data-name="Caminho 27" class="cls-1" d="M28,33.738a.445.445,0,0,0,.445.445h.89a.445.445,0,1,0,0-.89h-.89A.445.445,0,0,0,28,33.738Z" transform="translate(-15.537 -18.311)"/>
+    <path id="Caminho_28" data-name="Caminho 28" class="cls-1" d="M35.567,19.738a.445.445,0,0,0-.445-.445H28.445a.445.445,0,1,0,0,.89h6.677A.445.445,0,0,0,35.567,19.738Z" transform="translate(-15.537 -10.543)"/>
+    <path id="Caminho_29" data-name="Caminho 29" class="cls-1" d="M48.129,19.429a.458.458,0,0,0-.129.316.441.441,0,0,0,.445.445.46.46,0,0,0,.316-.129.447.447,0,0,0-.632-.632Z" transform="translate(-26.635 -10.55)"/>
+    <path id="Caminho_30" data-name="Caminho 30" class="cls-1" d="M29.761,27.061a.451.451,0,0,0,0-.632.466.466,0,0,0-.632,0,.451.451,0,0,0,0,.632.451.451,0,0,0,.632,0Z" transform="translate(-16.092 -14.434)"/>
+    <path id="Caminho_31" data-name="Caminho 31" class="cls-1" d="M34.761,34.061a.46.46,0,0,0,.129-.316.451.451,0,0,0-.129-.316.445.445,0,1,0,0,.632Z" transform="translate(-18.866 -18.318)"/>
+    <path id="Caminho_32" data-name="Caminho 32" class="cls-1" d="M13.671,20.228v-.49a.445.445,0,1,0-.89,0v.491a2.219,2.219,0,0,0-1.254.742,1.53,1.53,0,0,0-.353,1.159,1.624,1.624,0,0,0,.616,1.109l.992.772v2.421a1.334,1.334,0,0,1-.89-1.253.445.445,0,1,0-.89,0,2.23,2.23,0,0,0,1.78,2.181v.391a.445.445,0,0,0,.89,0v-.393a2.222,2.222,0,0,0,1.255-.742,1.533,1.533,0,0,0,.353-1.16,1.623,1.623,0,0,0-.616-1.107l-.992-.771V21.156a1.334,1.334,0,0,1,.89,1.253.445.445,0,1,0,.89,0A2.23,2.23,0,0,0,13.671,20.228Zm.446,4.822a.731.731,0,0,1,.277.5.648.648,0,0,1-.147.492,1.33,1.33,0,0,1-.575.389V24.7Zm-1.781-2.514a.731.731,0,0,1-.277-.5.65.65,0,0,1,.147-.491,1.33,1.33,0,0,1,.575-.389v1.726Z" transform="translate(-6.104 -10.543)"/>
+    <circle id="Elipse_1" data-name="Elipse 1" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(17.359 4.744)"/>
+    <circle id="Elipse_2" data-name="Elipse 2" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(15.579 4.744)"/>
+    <circle id="Elipse_3" data-name="Elipse 3" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(19.14 4.744)"/>
+    <circle id="Elipse_4" data-name="Elipse 4" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(13.798 4.744)"/>
+    <circle id="Elipse_5" data-name="Elipse 5" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(20.92 4.744)"/>
+    <circle id="Elipse_6" data-name="Elipse 6" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(8.457 4.744)"/>
+    <circle id="Elipse_7" data-name="Elipse 7" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(10.238 4.744)"/>
+    <circle id="Elipse_8" data-name="Elipse 8" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(12.018 4.744)"/>
+    <circle id="Elipse_9" data-name="Elipse 9" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(22.701 4.744)"/>
+    <circle id="Elipse_10" data-name="Elipse 10" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(6.677 4.744)"/>
+    <circle id="Elipse_11" data-name="Elipse 11" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(4.896 4.744)"/>
+    <circle id="Elipse_12" data-name="Elipse 12" class="cls-1" cx="0.445" cy="0.445" r="0.445" transform="translate(3.116 4.744)"/>
+  </g>
+</svg>

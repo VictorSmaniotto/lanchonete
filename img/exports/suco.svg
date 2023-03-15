@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.577" height="27.106" viewBox="0 0 22.577 27.106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #f28705;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="suco" transform="translate(0.75 0.692)">
+    <path id="Caminho_42" data-name="Caminho 42" class="cls-1" d="M29.373,34.08h-11L17,13H30.748Z" transform="translate(-12.417 -8.417)"/>
+    <circle id="Elipse_13" data-name="Elipse 13" class="cls-1" cx="4.583" cy="4.583" r="4.583" transform="translate(0 0.917)"/>
+    <line id="Linha_3" data-name="Linha 3" class="cls-1" x2="11.915" transform="translate(5.499 15.123)"/>
+    <path id="Caminho_43" data-name="Caminho 43" class="cls-1" d="M30,25,35.5,5.291,41,3" transform="translate(-19.46 -3)"/>
+  </g>
+</svg>

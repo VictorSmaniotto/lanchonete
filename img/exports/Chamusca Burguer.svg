@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="23" viewBox="0 0 160 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+        font-size: 16px;
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text id="Chamusca_Burguer" data-name="Chamusca Burguer" class="cls-1" transform="translate(0 17)"><tspan x="0" y="0">Chamusca Burguer</tspan></text>
+</svg>
