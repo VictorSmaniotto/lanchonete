@@ -1,0 +1,101 @@
+:root{
+    --cor-primaria:#fff;
+    --cor-primaria-gray:#F2F2F2;
+    --cor-secundaria:#F24405;
+    --cor-secundaria-dark:hsl(16, 66%, 48%);
+    --cor-secundaria-light:#F28705;
+    
+    --cor-dark-texto: #212529;
+    --cor-light-texto: #F2F2F2;
+
+    --cor-verde-auxiliar: #6F7302;
+    --cor-verde-light-auxiliar: #B9BF05;
+
+    --box-shadow-sm: 0 3px 6px rgba(204, 204, 204, 1);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+#barra-topo{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    height: 56px;
+    background-color: var(--cor-secundaria);
+    box-shadow: var(--box-shadow-sm);
+}
+
+#menu-principal{
+/* Tira o menu da tela */
+    display: none;
+}
+
+.formato-bolinha{
+    border-radius: 50%;
+    border: 2px solid var(--cor-primaria);
+}
+
+#pesquisar{
+    position: relative;
+    padding: 16px 8px;
+}
+
+#pesquisar input{
+    background-color: var(--cor-primaria);    
+    width: 100%;
+    height: 45px;
+    padding: 8px 40px 8px 15px;
+    border: 1px solid var(--cor-secundaria-light);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-sm);
+    font-size: 1rem;
+}
+
+#pesquisar input:focus{
+    outline-color: var(--cor-secundaria);
+}
+
+#pesquisar button{
+    background: none;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 27px;
+}
+
+
+.conteudo{
+    background-color: var(--cor-primaria-gray);
+}
+
+.lista-categorias ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 8px;
+    margin-bottom: 1rem;
+}
+
+.lista-categorias .item-categoria{
+    background-color: var(--cor-primaria);
+    font-size: .5rem;
+    color: var(--cor-dark-texto);
+    text-align: center;
+    padding: 8px;
+    width: 80px;
+    height: 70px;
+    box-shadow: var(--box-shadow-sm);
+    border-radius: 10px;
+}
+
+/* .lista-produtos{
+    display: flex;
+    justify-content: space-between;
+} */
+

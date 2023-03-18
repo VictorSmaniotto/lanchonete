@@ -6,7 +6,7 @@
       }
 
       .cls-2 {
-        fill: #212529;
+        fill: #fff;
         font-size: 16px;
         font-family: Poppins-SemiBold, Poppins;
         font-weight: 600;
@@ -14,7 +14,7 @@
 
       .cls-3 {
         fill: none;
-        stroke: #212529;
+        stroke: #fff;
       }
     </style>
     <pattern id="pattern" width="1" height="1" viewBox="3.982 3.982 32.035 32.035">
