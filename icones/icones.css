@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'icones';
+  src:
+    url('fonts/icones.ttf?b1fdcq') format('truetype'),
+    url('fonts/icones.woff?b1fdcq') format('woff'),
+    url('fonts/icones.svg?b1fdcq#icones') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icones' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-house:before {
+  content: "\e904";
+}
+.icon-suco:before {
+  content: "\e900";
+}
+.icon-account-settings:before {
+  content: "\e901";
+  color: #21252a;
+}
+.icon-user:before {
+  content: "\e902";
+  color: #21252a;
+}
+.icon-botao-hamburguer:before {
+  content: "\e903";
+}
+.icon-engrenagem:before {
+  content: "\e905";
+  color: #21252a;
+}
+.icon-cesta:before {
+  content: "\e906";
+  color: #21252a;
+}
+.icon-choppe:before {
+  content: "\e908";
+  color: #212529;
+}
+.icon-favoritos:before {
+  content: "\e909";
+  color: #21252a;
+}
+.icon-batata_frita:before {
+  content: "\e90a";
+  color: #212529;
+}
+.icon-hambuger:before {
+  content: "\e90b";
+  color: #212529;
+}
+.icon-lupa:before {
+  content: "\e90e";
+  color: #212529;
+}
+.icon-pedido:before {
+  content: "\e90f";
+  color: #21252a;
+}
+.icon-pizza:before {
+  content: "\e910";
+  color: #212529;
+}
+.icon-user1:before {
+  content: "\e911";
+  color: #21252a;
+}

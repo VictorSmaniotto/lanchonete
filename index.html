@@ -7,15 +7,17 @@
     <meta name="keywords" content="Lanchonete, Hamburguer, Burguer, Queijo, Pão, Molho especial, porções, pizzas, chopp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="icones/icones.css">
     <title>Lanchonete Burguer</title>
 </head>
 <body>
     <header id="cabecalho">
         <div id="barra-topo">
             <div id="icon-menu">
-                <img src="img/exports/botao-hamburguer.svg" alt="btn menu" height="40" width="40">
+                <i class="icon-botao-hamburguer"></i>
             </div>
             <div id="logotipo">
                 <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="40">
@@ -41,7 +43,7 @@
             <form action="" method="get">
                 <input type="search" name="pesquisar" placeholder="Quer comer o que?">
                 <button type="submit">
-                    <img src="img/exports/lupa.svg" alt="Pesquisar produto" height="23">
+                    <i class="icon-lupa"></i>
                 </button>
             </form>
         </div>
@@ -53,32 +55,32 @@
             <ul>
                 <li>
                     <div class="item-categoria">
-                        <img src="img/exports/hambuger.svg" alt="Categoria Hamburguer" height="30">
+                        <i class="icon-hambuger"></i>
                         <h2>Lanches</h2>
                     </div>
                 </li>
 
                 <li>
                     <div class="item-categoria">
-                        <img src="img/exports/French_fries.svg" alt="Categoria Porções" height="30">
+                        <i class="icon-batata_frita"></i>
                         <h2>Porções</h2>
                     </div>
                 </li>
                 <li>
                     <div class="item-categoria">
-                        <img src="img/exports/pizza.svg" alt="Categoria Pizzas" height="30">
+                        <i class="icon-pizza"></i>
                         <h2>Pizzas</h2>
                     </div>
                 </li>
                 <li>
                     <div class="item-categoria">
-                        <img src="img/exports/chopp.svg" alt="Categoria Chopp" height="30">
+                        <i class="icon-choppe"></i>
                         <h2>Chopps</h2>
                     </div>
                 </li>
                 <li>
                     <div class="item-categoria">
-                        <img src="img/exports/suco.svg" alt="Categoria Sucos" height="30">
+                        <i class="icon-suco"></i>
                         <h2>Sucos</h2>
                     </div>
                 </li>
@@ -87,23 +89,51 @@
 
         <div class="lista-produtos">
             <div class="item-produto">
-                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" height="100">
+                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" class="img-fluid">
                 <h2>X-Bacon</h2>
                 <small>Pão, hambúrguer 100g, bacon crocante,cheddar e molho especial.</small>
-                <span class="preco">R$19,90</span>
-                <a href="#" class="btn-adicionar">
-                    <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
-                </a>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
             </div>
             
             <div class="item-produto">
-                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" height="100">
+                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" class="img-fluid">
                 <h2>X-Bacon</h2>
                 <small>Pão, hambúrguer 100g, bacon crocante,cheddar e molho especial.</small>
-                <span class="preco">R$19,90</span>
-                <a href="#" class="btn-adicionar">
-                    <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
-                </a>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e molho especial.</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-produto">
+                <img src="img/exports/foto-hamburguer.svg" alt="Lanche" class="img-fluid">
+                <h2>X-Bacon</h2>
+                <small>Pão, hambúrguer 100g, bacon crocante,cheddar e molho especial.</small>
+                <div class="box-preco">
+                    <span class="preco">R$19,90</span>
+                    <a href="#" class="btn-adicionar">
+                        <img src="img/exports/btn-add.svg" alt="adicionar" height="20">
+                    </a>
+                </div>
             </div>
         </div>
     </main>
@@ -113,11 +143,11 @@
     <footer>
         <nav id="menu-rodape">
             <ul>
-                <li><a href="#"><img src="img/exports/home.svg" alt="Home" height="40"></a></li>
-                <li><a href="#"><img src="img/exports/cesta.svg" alt="Cesta" height="40"></a></li>
-                <li><a href="#"><img src="img/exports/pedido.svg" alt="Pedidos" height="40"></a></li>
-                <li><a href="#"><img src="img/exports/Caminho 11.svg" alt="Favoritos" height="40"></a></li>
-                <li><a href="#"><img src="img/exports/user.svg" alt="Usuário" height="40"></a></li>
+                <li><a href="#"><i class="icon-house"></i></a></li>
+                <li><a href="#"><i class="icon-cesta"></i></a></li>
+                <li><a href="#"><i class="icon-pedido"></i></a></li>
+                <li><a href="#"><i class="icon-favoritos"></i></a></li>
+                <li><a href="#"><i class="icon-user1"></i></a></li>
             </ul>
         </nav>
     </footer>
