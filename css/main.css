@@ -82,24 +82,36 @@
   background-color: var(--cor-primaria-gray);
 }
 
+.lista-categorias {
+  overflow-x: auto;
+}
+
 .lista-categorias ul {
   display: flex;
   justify-content: space-between;
   padding: 16px 8px;
   margin-bottom: 1rem;
+  gap: 5px;
 }
+
+/* .lista-categorias ul li {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 20%;
+} */
 
 .lista-categorias .item-categoria {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--cor-primaria);
-  font-size: 0.5rem;
+  font-size: 0.4rem;
   color: var(--cor-dark-texto);
   text-align: center;
   padding: 8px;
-  width: 80px;
+  width: 70px;
   height: 80px;
+  margin: 5px;
   box-shadow: var(--box-shadow-sm);
   border-radius: 10px;
 }
