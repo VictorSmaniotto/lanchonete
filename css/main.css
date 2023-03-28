@@ -29,6 +29,10 @@
   height: 56px;
   background-color: var(--cor-secundaria);
   box-shadow: var(--box-shadow-sm);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999999999;
 }
 
 #barra-topo #icon-menu {
@@ -49,6 +53,7 @@
 #pesquisar {
   position: relative;
   padding: 16px 8px;
+  margin-top: 70px;
 }
 
 #pesquisar input {
@@ -163,3 +168,45 @@
   width: 100%;
   height: auto;
 }
+
+/* .btn-adicionar {
+  background-color: var(--cor-secundaria-light);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  color: var(--cor-primaria);
+  text-decoration: none;
+  border-radius: 15px;
+  align-items: center;
+} */
+
+main {
+  margin-bottom: 70px;
+}
+
+#menu-rodape {
+  background-color: var(--cor-secundaria);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 56px;
+  box-shadow: 0 -3px 6px rgba(204, 204, 204, 1);
+}
+
+#menu-rodape ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu-rodape ul a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--cor-light-texto) !important;
+  display: block;
+  padding: 8px;
+}
+
+/* #menu-rodape ul a:hover {
+  background-color: var(--cor-secundaria-light);
+} */
