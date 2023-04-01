@@ -16,13 +16,21 @@
 <body>
     <header id="cabecalho">
         <div id="barra-topo">
-            <div id="icon-menu">
+            <div id="btn-menu" >
                 <i class="icon-botao-hamburguer"></i>
             </div>
             <div id="logotipo">
                 <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="40">
             </div>
+            
             <nav id="menu-principal">
+                <div id="menu-principal-topo">
+                    <div id="btn-close" class="icon-menu-fechar">
+                        <i class="icon-close"></i>
+                    </div>
+                    <img src="img/exports/logotipo-2.svg" alt="Lanchonete burguer" height="35">
+                </div>
+
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Lanchonete</a></li>
@@ -30,6 +38,7 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
+            <div id="overlay"></div>
             <div id="usuario">
                 <h1>
                     <img src="img/profile/usuario1.jpg" class="formato-bolinha" alt="Usuário" height="40">
@@ -151,5 +160,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
