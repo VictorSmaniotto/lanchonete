@@ -1,17 +1,17 @@
 @font-face {
-  font-family: "icones";
-  src: url("fonts/icones.ttf?7dsurv") format("truetype"),
-    url("fonts/icones.woff?7dsurv") format("woff"),
-    url("fonts/icones.svg?7dsurv#icones") format("svg");
+  font-family: 'icones';
+  src:
+    url('fonts/icones.ttf?jhnr74') format('truetype'),
+    url('fonts/icones.woff?jhnr74') format('woff'),
+    url('fonts/icones.svg?jhnr74#icones') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icones" !important;
+  font-family: 'icones' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -24,6 +24,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cupom .path1:before {
+  content: "\e905";
+  color: rgb(255, 202, 138);
+}
+.icon-cupom .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 202, 138);
+}
+.icon-cupom .path3:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(242, 68, 5);
+}
 .icon-close:before {
   content: "\e916";
   color: #fff;
@@ -51,7 +65,7 @@
 }
 .icon-cesta:before {
   content: "\e907";
-  color: #fff;
+  color: #21252a;
 }
 .icon-Chamusca-Burguer:before {
   content: "\e908";
@@ -62,7 +76,7 @@
 }
 .icon-favoritos:before {
   content: "\e90a";
-  color: #fff;
+  color: #21252a;
 }
 .icon-batata_frita:before {
   content: "\e90b";
@@ -78,7 +92,7 @@
 }
 .icon-pedido:before {
   content: "\e910";
-  color: #fff;
+  color: #21252a;
 }
 .icon-pizza:before {
   content: "\e911";
@@ -86,7 +100,7 @@
 }
 .icon-user1:before {
   content: "\e914";
-  color: #fff;
+  color: #21252a;
 }
 .icon-project-svgrepo-com:before {
   content: "\e915";

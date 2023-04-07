@@ -28,7 +28,7 @@
   padding: 8px;
   height: 56px;
   background-color: var(--cor-secundaria);
-  box-shadow: var(--box-shadow-sm);
+  box-shadow: 0 3px 6px rgba(68, 68, 68, 0.233);
   position: fixed;
   width: 100%;
   top: 0;
@@ -47,7 +47,7 @@
   left: -260px;
   min-width: 260px;
   height: 100vh;
-  box-shadow: 0 3px 6px rgba(58, 58, 58, 0.329);
+  box-shadow: 0 3px 6px rgba(68, 68, 68, 0.233);
   z-index: 999999;
   transition: all 500ms ease;
 }
@@ -197,15 +197,15 @@
 }
 
 .lista-produtos .item-produto h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .lista-produtos .item-produto small {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .lista-produtos .item-produto .preco {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: bold;
   color: var(--cor-secundaria);
 }
@@ -283,4 +283,64 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
+}
+
+#produto-aberto {
+  margin-top: 56px;
+}
+
+#produto-aberto #produto-descricao {
+  padding: 8px 16px;
+}
+
+#produto-aberto #produto-descricao .produto-nome {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+#produto-aberto #produto-descricao .produto-nome h2 {
+  margin-right: 10px;
+}
+
+#produto-aberto #produto-descricao .produto-nome span {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--cor-secundaria);
+  margin-top: 5px;
+}
+
+#produto-aberto #produto-descricao .box-preco .preco {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--cor-secundaria);
+  margin-top: 10px;
+}
+
+#produto-aberto .btn-comprar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 120px;
+}
+
+#produto-aberto .btn-comprar button {
+  width: 90%;
+  height: 45px;
+  color: var(--cor-primaria);
+  font-size: 1.05rem;
+  font-weight: bold;
+  background-color: var(--cor-verde-light-auxiliar);
+  border-radius: 5px;
+  border: 1px solid var(--cor-verde-auxiliar);
+}
+
+#produto-aberto .btn-comprar button:hover {
+  background-color: var(--cor-verde-auxiliar);
+  transition: 0.1s ease-in;
+}
+
+#produto-aberto .btn-comprar button:focus {
+  outline-color: var(--cor-verde-auxiliar);
 }
