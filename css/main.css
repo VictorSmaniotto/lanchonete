@@ -285,6 +285,8 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+/* -------------- hamburguer.html ----------------- */
+
 #produto-aberto {
   margin-top: 56px;
 }
@@ -339,8 +341,4 @@ input[type="search"]::-webkit-search-results-decoration {
 #produto-aberto .btn-comprar button:hover {
   background-color: var(--cor-verde-auxiliar);
   transition: 0.1s ease-in;
-}
-
-#produto-aberto .btn-comprar button:focus {
-  outline-color: var(--cor-verde-auxiliar);
 }
