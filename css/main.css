@@ -88,13 +88,17 @@
 
 #overlay {
   position: fixed;
-  background-color: rgb(51, 51, 51, 0.5);
+  background-color: rgba(51, 51, 51, 0.301);
   left: 0;
   top: 0;
   width: 100%;
   height: 100vh;
   z-index: 999;
   display: none;
+}
+
+.overlay-show {
+  display: block !important;
 }
 
 .formato-bolinha {
